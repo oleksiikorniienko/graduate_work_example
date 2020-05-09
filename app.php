@@ -13,6 +13,10 @@ switch ($command) {
         $main = new SampleDataGenerator\Main();
         $main->main();
         break;
+    case 'distance':
+        $main = new Distance\Main();
+        $main->main();
+        break;
     default:
         throw new \Exception('Command "' . $command . '" not fount!');
 }

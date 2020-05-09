@@ -9,7 +9,8 @@
   "autoload": {
     "psr-4": {
       "GraduateWork\\": "GraduateWork/",
-      "SampleDataGenerator\\": "SampleDataGenerator/"
+      "SampleDataGenerator\\": "SampleDataGenerator/",
+      "Distance\\":  "Distance/"
     }
   },
   "scripts": {
